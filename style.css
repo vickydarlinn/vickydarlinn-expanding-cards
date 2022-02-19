@@ -26,6 +26,11 @@ body {
   align-items: flex-end;
   width: 70px;
 }
+@media (max-width: 900px) {
+  .panel:nth-child(n + 4) {
+    display: none;
+  }
+}
 .active {
   flex-grow: 1;
 }
